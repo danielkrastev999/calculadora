@@ -2,7 +2,7 @@
 def sumar(x,y):
     result = x + y
     print("La suma es : "+str(result))
-    print("jajajaja vaya telaaa")
+    print("modificacion de la suma")
 
 
 def restar(x,y):
