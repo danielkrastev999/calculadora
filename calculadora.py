@@ -20,6 +20,10 @@ def dividir(x,y):
     print("La division es: {}".format(result))
     #Segundo intento de subida !
 
+def potencia(x,y):
+    result = x ** y
+    print("{} elevado a {} es: {}".format(x,y,result))
+
 
 x = int(input("Ingresa un numero: "))
 y = int(input("Ingresa el segundo numero: "))
@@ -32,3 +36,5 @@ restar(x,y)
 multiplicar(x,y)
 
 dividir(x,y)
+
+potencia(x,y)
